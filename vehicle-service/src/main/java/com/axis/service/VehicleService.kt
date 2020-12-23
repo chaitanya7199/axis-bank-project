@@ -1,7 +1,7 @@
 package com.axis.service
 
-import com.axis.model.CarBrand
+import com.axis.model.CarModel
 
 interface VehicleService {
-    fun getCarBrands(): List<CarBrand>
+    fun addVehicleDetails(model_id: Int)
 }
